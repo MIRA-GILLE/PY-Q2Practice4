@@ -5,5 +5,5 @@ def add_brand(e):
     
     brands = ('Uniqlo', 'Bench', 'Zara')
 
-input_brand = document.getElementById("input1").value
-
+    input_brand = document.getElementById("input1").value
+    new_brand_set ={input_brand}  
