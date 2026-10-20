@@ -1,9 +1,9 @@
-from pyscript import document,display
+from pyscript import display, document
 
+def add_brand(e):
+    document.getElementById("output1").innerHTML = ""
+    
+    brands = ('Uniqlo', 'Bench', 'Zara')
 
-x = "This is an editable copy. Use this environment every time we have discussions for our demo."
+input_brand = document.getElementById("input1").value
 
-
-
-
-display(x, target="output1")
