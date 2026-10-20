@@ -15,3 +15,10 @@ def add_brand(e):
 
     #4
     total_brands = len(brands | new_brand_set)
+
+    #display the items in ascending order (A-Z) seperated by br
+    brand_list = "<br>".join(sorted(all_brands))
+
+    #display
+    document.getElementById("output1").innerHTML = f'All Brands: <br>{brand_list}'
+    display(f'Total Brands: {total_brands}', target = "output1")
